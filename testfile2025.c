@@ -24,9 +24,9 @@ void waitForUser() {
 int main() {
     char filename[MAX_FILENAME];
     char introduction[] = "Hello, my name is Caden\n\n"
-                          "I am a computer science student passionate about systems programming.\n"
-                          "This project involves creating a file system library in C.\n"
-                          "I hope you find my implementation useful!";
+                          "I love frogs because frog spelled backwards is gorf.\n"
+                          "Minecraft is awesome and can have shakespearian writing.\n"
+                          "I also like saying Hey D00d and Jolly Good Show Indeed!!";
     int file_index = -1;  // Track the currently open file
     int choice;
     char buffer[MAX_FILE_SIZE];
