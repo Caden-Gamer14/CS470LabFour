@@ -3,7 +3,7 @@ CC = gcc
 CFLAGS = -Wall
 
 # Source files
-SRCS = libFS2025.c testfile2025.c
+SRCS = Caden_libFS2025.c Caden_testfile2025.c
 
 # Object files (automatically generated from source files)
 OBJS = $(SRCS:.c=.o)
@@ -19,7 +19,7 @@ $(TARGET): $(OBJS)
 	$(CC) $(CFLAGS) -o $(TARGET) $(OBJS)
 
 # Rule to compile .c files into .o files
-%.o: %.c libFS2025.h
+%.o: %.c Caden_libFS2025.h
 	$(CC) $(CFLAGS) -c $< -o $@
 
 # Clean up build files
