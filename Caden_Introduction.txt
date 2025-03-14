@@ -1,0 +1,5 @@
+Hello, my name is Caden
+
+I am a computer science student passionate about systems programming.
+This project involves creating a file system library in C.
+I hope you find my implementation useful!
